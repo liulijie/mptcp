@@ -1,0 +1,5 @@
+#1.192.168.129.160 de  sudo echo 1> /proc/sys/net/ipv4/conf/all/arp_filter
+ 2. cd /etc
+    sudo vi sysctl.conf -->net.ipv4.conf.all.arp_filter=1
+
+       
